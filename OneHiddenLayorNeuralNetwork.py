@@ -70,6 +70,6 @@ class OneHiddenLayerNerualNetwork:
     dw_one = np.dot(input.T, db_one)
 
     self._weight_one -= self._rate * dw_one
-    self._bias_one   -= self._rate * np.sum(db_one ,axis=0, keepdims=True)
+    self._bias_one   -= self._rate * np.sum(db_one, axis=0, keepdims=True)
     self._weight_two -= self._rate * dw_two
-    self._bias_two   -= self._rate * np.sum(db_two ,axis=0, keepdims=True)
+    self._bias_two   -= self._rate * np.sum(db_two, axis=0, keepdims=True)
