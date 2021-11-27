@@ -3,6 +3,8 @@ import numpy as np
 class OneHiddenLayerNerualNetwork:
   """
   A class that represents one hidden layer neural network
+  with square error loss
+  and sigmoid activation for each layer
   """
 
   def __init__(self, alpha, input, hidden):
