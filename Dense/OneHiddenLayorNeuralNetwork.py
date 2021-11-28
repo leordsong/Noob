@@ -62,7 +62,7 @@ class OneHiddenLayerNerualNetwork:
 
     # backward propagation
     # derivative of bias 2
-    db_two = 2 * (output - expected) * output * (1 - output)
+    db_two = - 2 * (expected - output) * output * (1 - output)
     # derivative of weight 2
     dw_two = np.dot(hidden.T, db_two)
     # derivative of bias 1
