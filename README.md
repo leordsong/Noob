@@ -1,9 +1,9 @@
-# NerualNetwork
-Python Implementations of neural networks
+# Noob
+Numpy netwOrks frOm Bebinning
 
 ## How to start
 ```
-conda create -n nn python=3.7
-conda activate nn
+conda create -n noob python=3.7
+conda activate noob
 pip install numpy
 ```

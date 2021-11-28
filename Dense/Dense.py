@@ -1,6 +1,6 @@
 import numpy as np
 
-from activations import sigmoid, d_sigmoid
+from activations import linear, d_linear
 
 
 class Dense:
@@ -9,7 +9,7 @@ class Dense:
   """
 
   def __init__(self, alpha: float, inputs: int, units: int,
-               activation=(sigmoid, d_sigmoid)):
+               activation=(linear, d_linear)):
     """Initialize a new instance of this class
 
     Args:
