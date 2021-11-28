@@ -1,5 +1,4 @@
-# Noob
-Numpy netwOrks frOm Bebinning
+# Noob: Numpy netwOrks frOm Beginning
 
 ## How to start
 ```
