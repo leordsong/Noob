@@ -7,7 +7,7 @@ from losses import MSE
 from activations import sigmoid, d_sigmoid
 
 
-class MSETests(unittest.TestCase):
+class DenseTests(unittest.TestCase):
 
     def test_feedforward(self):
         input_shape = 2
